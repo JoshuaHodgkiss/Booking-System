@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ChallengeLINQ">
+  <DataContextMoniker Name="/ChallengeLINQDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7aad9748-a46b-4697-a8f8-0685a8fa14da" absoluteBounds="3, 2.125, 2, 1.3862939453125">
+      <DataClassMoniker Name="/ChallengeLINQDataContext/StaffTable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="da2b069b-a70d-422b-8b8a-fd75370bee9a" absoluteBounds="3.0149999999999997, 2.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="982d026c-4e3e-4aa5-92f8-eed9c4f0d95d" absoluteBounds="6.25, 1.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/ChallengeLINQDataContext/CustomerTable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fcf9f4e0-0c79-4b9b-bb53-ea4eb20cfcb2" absoluteBounds="6.265, 1.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ed1efc05-fd94-440f-aa95-a64b78581bc4" absoluteBounds="5.75, 3.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/ChallengeLINQDataContext/GuestTable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="505733d6-7903-40b5-8449-4fb9f1b69de0" absoluteBounds="5.765, 4.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

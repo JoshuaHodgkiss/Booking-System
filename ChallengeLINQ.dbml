@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ChallengeUKDB" Class="ChallengeLINQDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\ChallengeUKDB.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="ChallengeUKDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.StaffTable" Member="StaffTables">
+    <Type Name="StaffTable">
+      <Column Name="username" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CustomerTable" Member="CustomerTables">
+    <Type Name="CustomerTable">
+      <Column Name="customerName" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="customerGender" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="paymentMethod" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="courseName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="hostelName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GuestTable" Member="GuestTables">
+    <Type Name="GuestTable">
+      <Column Name="guestName" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="guestGender" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="requirements" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="guestAge" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="guestCourse" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="guestHostel" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

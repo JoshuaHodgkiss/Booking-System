@@ -1,0 +1,95 @@
+﻿html, body
+{
+	background: #fff0e5;
+    margin: 0;
+	padding: 0;
+}
+
+.Header
+{
+	background: #821122; /*Main Background of the Header*/
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.Header h1
+{
+	color: #FCFCFC;
+	margin-left: 25px;
+	padding: 30px 0 20px;
+	text-align: left;
+}
+
+.Menu
+{
+	float: left;
+	font-size: 80%;
+	margin: 0;
+	margin-left: 3px;
+	padding: 0;
+	text-align: center;
+}
+
+a.MenuLink
+{
+	background: #821122; /* This is the dark red background for the hyperlinks*/
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	color: #FCFCFC; /* This is the white text*/
+	float: left;
+	margin: 0px;
+	padding: 5px 0px;
+	margin-left: 5px;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+	
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+}
+
+a:hover.MenuLink
+{
+	background: #ea1212; /*This is the nice red when you hover over links*/
+	color: #FCFCFC; /*white text rather than silver*/
+}
+
+a.ActiveLink
+{
+    background: #ffffff;
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	color: #666666;
+	float: left;
+	margin: 0px;
+	padding: 5px 0px;
+	margin-left: 5px;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+	
+    -moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+}
+
+.ClearFloats
+{
+    clear:both;
+}
+
+.Content
+{
+    padding-left: 25px;
+}
+
+.Footer
+{
+    
+}
